@@ -6,7 +6,7 @@ requires = [
 ]
 
 setup(name='unicore-cms-ebola',
-      version='0.1',
+      version='0.2',
       description='Ebola Pyramid Frontend Site for Universal Core ',
       long_description='Ebola Pyramid Frontend Site for Universal Core ',
       classifiers=[
