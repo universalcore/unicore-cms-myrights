@@ -30,4 +30,8 @@ setup(name='unicore-cms-ebola',
       [paste.app_factory]
       main = unicorecmsebola:main
       """,
+      message_extractors={'.': [
+      ('**.py', 'python', None),
+      ('**.pt', 'chameleon', None),
+      ]},
       )

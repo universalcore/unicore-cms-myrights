@@ -1,0 +1,45 @@
+#
+# Language swh translations for PACKAGE package
+# This file is distributed under the same license as the PACKAGE package.
+# TonyM <tonym@localhost>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE 1.0\n"
+"POT-Creation-Date: 2014-09-29 22:52+0200\n"
+"PO-Revision-Date: 2014-09-29 22:45+0200\n"
+"Last-Translator: TonyM <tonym@localhost>\n"
+"Language-Team: Language swh\n"
+"Language: swh_TZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Default: Latest
+#: unicorecmsebola/templates/home.pt:11
+msgid "latest"
+msgstr "Latest in swh_TZ"
+
+#. Default: More
+#: unicorecmsebola/templates/home.pt:67
+msgid "more"
+msgstr "More in swh_TZ"
+
+#. Default: Home
+#: unicorecmsebola/templates/base.pt:42 unicorecmsebola/templates/base.pt:71
+msgid "home"
+msgstr "Home in swh_TZ"
+
+#. Default: About
+#: unicorecmsebola/templates/base.pt:45 unicorecmsebola/templates/base.pt:74
+msgid "about"
+msgstr "About in swh_TZ"
+
+#. Default: Credits
+#: unicorecmsebola/templates/base.pt:48 unicorecmsebola/templates/base.pt:77
+msgid "credits"
+msgstr "Credits in swh_TZ"
+
+#. Default: Contact
+#: unicorecmsebola/templates/base.pt:51 unicorecmsebola/templates/base.pt:80
+msgid "contact"
+msgstr "Contact in swh_TZ"
