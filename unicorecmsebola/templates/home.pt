@@ -19,7 +19,7 @@
 
         <div class="object-category-list modelbase-category-list" tal:repeat="cat view.get_categories()">
             <div class="h1">
-                <a href="/content/list/${cat.uuid}/"><img src="/static/img/icon-${cat.slug}.jpg">
+                <a href="/content/list/${cat.uuid}/">
                   ${cat.title}
                 </a>
                 <div class="clear"></div>

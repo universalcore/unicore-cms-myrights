@@ -3,7 +3,7 @@
 
         <div class="object-category-list modelbase-category-list">
         <div class="h1">
-            <img src="/static/img/icon-${category.slug}.jpg"/> ${category.title}
+            <img src="/static/img/icon-ebola-faq.jpg"/> ${category.title}
             <div class="clear"></div>
         </div>
 
