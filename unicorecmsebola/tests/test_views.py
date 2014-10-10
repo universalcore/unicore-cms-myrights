@@ -1,7 +1,7 @@
 import os
 from pyramid import testing
 
-from unicorecmsffl import main
+from unicorecmsebola import main
 from cms.tests.utils import BaseTestCase, RepoHelper
 from webtest import TestApp
 
