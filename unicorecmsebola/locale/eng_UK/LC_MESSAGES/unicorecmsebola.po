@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-09-29 22:52+0200\n"
+"POT-Creation-Date: 2014-10-10 11:19+0200\n"
 "PO-Revision-Date: 2014-09-29 22:45+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language eng\n"
@@ -16,30 +16,30 @@ msgstr ""
 
 #. Default: Latest
 #: unicorecmsebola/templates/home.pt:11
-msgid "latest"
+msgid "Latest"
 msgstr ""
 
 #. Default: More
 #: unicorecmsebola/templates/home.pt:67
-msgid "more"
+msgid "More"
 msgstr ""
 
 #. Default: Home
-#: unicorecmsebola/templates/base.pt:42 unicorecmsebola/templates/base.pt:71
-msgid "home"
+#: unicorecmsebola/templates/base.pt:45 unicorecmsebola/templates/base.pt:74
+msgid "Home"
 msgstr ""
 
 #. Default: About
-#: unicorecmsebola/templates/base.pt:45 unicorecmsebola/templates/base.pt:74
-msgid "about"
+#: unicorecmsebola/templates/base.pt:48 unicorecmsebola/templates/base.pt:77
+msgid "About"
 msgstr ""
 
 #. Default: Credits
-#: unicorecmsebola/templates/base.pt:48 unicorecmsebola/templates/base.pt:77
-msgid "credits"
+#: unicorecmsebola/templates/base.pt:51 unicorecmsebola/templates/base.pt:80
+msgid "Credits"
 msgstr ""
 
 #. Default: Contact
-#: unicorecmsebola/templates/base.pt:51 unicorecmsebola/templates/base.pt:80
-msgid "contact"
+#: unicorecmsebola/templates/base.pt:54 unicorecmsebola/templates/base.pt:83
+msgid "Contact"
 msgstr ""
