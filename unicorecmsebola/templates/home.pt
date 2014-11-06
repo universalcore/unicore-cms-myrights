@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="object-category-list modelbase-category-list" tal:repeat="cat view.get_categories()[:20]">
+        <div class="object-category-list modelbase-category-list" tal:repeat="cat view.get_categories()">
             <div class="h1">
                 <a href="/content/list/${cat.uuid}/">
                   ${cat.title}
@@ -27,7 +27,7 @@
 
             <div class="items" tal:condition="view.get_featured_category_pages(cat.uuid)">
             <div class="box">
-                <div class="item" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
+                <div class="item" tal:repeat="page view.get_featured_category_pages(cat.uuid)[:20]">
                     <div class="text">
                         <a href="/content/detail/${page.uuid}/">${page.title}</a>
                     </div>
