@@ -3,7 +3,7 @@ from pyramid import testing
 
 from cms.tests.base import UnicoreTestCase
 from unicorecmsebola import main
-from unicore.content.models import Page, Category
+from unicore.content.models import Page
 from webtest import TestApp
 
 
