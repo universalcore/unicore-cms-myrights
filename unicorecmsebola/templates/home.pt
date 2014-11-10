@@ -36,5 +36,13 @@
             </div>
         </div>
 
+        <div tal:define="homepage_intro view.get_page(None, 'homepage-intro')">
+            <div class="detail" tal:condition="homepage_intro">
+                <p><strong>${homepage_intro.title}</strong></p>
+                <p>${homepage_intro.description}</p>
+                <p><a href="/homepage-intro/">Read more »</a></p>
+            </div>
+        </div>
+
     </div>
 </div>
