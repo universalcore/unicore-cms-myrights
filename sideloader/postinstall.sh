@@ -8,6 +8,6 @@ ini_files="ebola.*.ini"
 
 for ini in $ini_files
 do
-    `which eg-tools` resync -c $ini -m unicore.content.models.Category -f true
-    `which eg-tools` resync -c $ini -m unicore.content.models.Page -f true
+    `which eg-tools` resync -c $ini -m unicore.content.models.Category -r true
+    `which eg-tools` resync -c $ini -m unicore.content.models.Page -r true
 done
