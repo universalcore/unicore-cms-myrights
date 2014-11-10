@@ -1,7 +1,9 @@
+from datetime import datetime
 from pyramid import testing
 
-from unicorecmsebola import main
 from cms.tests.base import UnicoreTestCase
+from unicorecmsebola import main
+from unicore.content.models import Page, Category
 from webtest import TestApp
 
 
@@ -26,4 +28,35 @@ class TestViews(UnicoreTestCase):
         resp = self.app.get('/credits/', status=200)
         self.assertTrue(
             '<div class="intro">Thanks to our partners</div>' in
+            resp.body)
+
+    def test_homepage_page(self):
+        self.workspace.setup_custom_mapping(Page, {
+            'properties': {
+                'slug': {
+                    'type': 'string',
+                    'index': 'not_analyzed',
+                },
+                'language': {
+                    'type': 'string',
+                }
+            }
+        })
+
+        self.create_categories(self.workspace, count=1)
+
+        intro_page = Page({
+            'title': 'Homepage Intro Title', 'language': 'eng_UK',
+            'description': 'this is the description text',
+            'slug': 'homepage-intro', 'content': 'this is the body of work',
+            'position': 0, 'modified_at': datetime.utcnow().isoformat()})
+        self.workspace.save(intro_page, 'save intro')
+        self.workspace.refresh_index()
+
+        resp = self.app.get('/', status=200)
+        self.assertTrue(
+            '<p><strong>Homepage Intro Title</strong></p>' in
+            resp.body)
+        self.assertTrue(
+            '<p>this is the description text</p>' in
             resp.body)
