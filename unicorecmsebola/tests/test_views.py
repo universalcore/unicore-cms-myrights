@@ -24,12 +24,6 @@ class TestViews(UnicoreTestCase):
         self.config = testing.setUp(settings=settings)
         self.app = TestApp(main({}, **settings))
 
-    def test_credits_page(self):
-        resp = self.app.get('/credits/', status=200)
-        self.assertTrue(
-            '<div class="intro">Thanks to our partners</div>' in
-            resp.body)
-
     def test_homepage_page(self):
         self.workspace.setup_custom_mapping(Page, {
             'properties': {
