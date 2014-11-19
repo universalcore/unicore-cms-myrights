@@ -4,15 +4,16 @@ mkdir -p unicorecmsebola/locale
 
 pot-create -o unicorecmsebola/locale/unicorecmsebola.pot unicorecmsebola/
 
-mkdir -p unicorecmsebola/locale/eng_UK/LC_MESSAGES
-mkdir -p unicorecmsebola/locale/swh_TZ/LC_MESSAGES
+declare -a arr=("eng_GB" "swa_TZ")
 
-# only uncomment if it's the 1st time
-#msginit -l eng_UK -i unicorecmsebola/locale/unicorecmsebola.pot -o unicorecmsebola/locale/eng_UK/LC_MESSAGES/unicorecmsebola.po
-#msginit -l swh_TZ -i unicorecmsebola/locale/unicorecmsebola.pot -o unicorecmsebola/locale/swh_TZ/LC_MESSAGES/unicorecmsebola.po
+for lang in "${arr[@]}"
+do
+    mkdir -p "unicorecmsebola/locale/""$lang""/LC_MESSAGES"
 
-msgmerge --update unicorecmsebola/locale/eng_UK/LC_MESSAGES/unicorecmsebola.po unicorecmsebola/locale/unicorecmsebola.pot
-msgmerge --update unicorecmsebola/locale/swh_TZ/LC_MESSAGES/unicorecmsebola.po unicorecmsebola/locale/unicorecmsebola.pot
+    if [ ! -f "unicorecmsebola/locale/""$lang""/LC_MESSAGES/unicorecmsebola.po" ]; then
+        msginit -l $lang -i unicorecmsebola/locale/unicorecmsebola.pot -o unicorecmsebola/locale/$lang/LC_MESSAGES/unicorecmsebola.po
+    fi
 
-msgfmt unicorecmsebola/locale/eng_UK/LC_MESSAGES/*.po -o unicorecmsebola/locale/eng_UK/LC_MESSAGES/unicorecmsebola.mo
-msgfmt unicorecmsebola/locale/swh_TZ/LC_MESSAGES/*.po -o unicorecmsebola/locale/swh_TZ/LC_MESSAGES/unicorecmsebola.mo
+    msgmerge --update unicorecmsebola/locale/$lang/LC_MESSAGES/unicorecmsebola.po unicorecmsebola/locale/unicorecmsebola.pot
+    msgfmt unicorecmsebola/locale/$lang/LC_MESSAGES/*.po -o unicorecmsebola/locale/$lang/LC_MESSAGES/unicorecmsebola.mo
+done
