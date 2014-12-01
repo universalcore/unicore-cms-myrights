@@ -69,7 +69,9 @@ class TestViews(UnicoreTestCase):
             '<p>this is the description text</p>' in
             resp.body)
         self.assertTrue(
-            '<img alt="Ebola Information" src="http://some.site.com/VNlJN07VKnfaB6k1imziAts4n0o=/320x0/some-uuid"/>' in
+            '<img alt="Ebola Information" '
+            'src="http://some.site.com/VNlJN07VKnfaB6k1imziAts4n0o='
+            '/320x0/some-uuid"/>' in
             resp.body)
 
         resp = self.app.get('/', status=200)
