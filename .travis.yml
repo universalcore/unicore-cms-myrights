@@ -7,8 +7,6 @@ install:
   - pip install -e . --use-wheel
   - pip install -r requirements-dev.txt --use-wheel
 script:
-  - find ./unicorecmsebola -name '*.py' | xargs pep8
-  - find ./unicorecmsebola -name '*.py' | xargs pyflakes
   - ./run_tests.sh
 after_success:
   - coveralls
