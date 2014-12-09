@@ -4,7 +4,7 @@ cd "${INSTALLDIR}/${REPO}/"
 
 $pip install -e "${INSTALLDIR}/${REPO}/"
 
-ini_files="ebola.*.ini"
+ini_files="ebola_*.ini"
 
 for ini in $ini_files
 do
