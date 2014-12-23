@@ -81,10 +81,10 @@ class TestViews(UnicoreTestCase):
         self.assertTrue('<a href="/">Home</a>' in resp.body)
 
         resp = self.app.get('/?_LOCALE_=swa_TZ', status=200)
-        self.assertTrue('<a href="/">Home in swa_TZ</a>' in resp.body)
+        self.assertTrue('<a href="/">Nyumbani</a>' in resp.body)
 
         resp = self.app.get('/?_LOCALE_=swh_TZ', status=200)
-        self.assertTrue('<a href="/">Home in swa_TZ</a>' in resp.body)
+        self.assertTrue('<a href="/">Nyumbani</a>' in resp.body)
 
     def test_footer_page(self):
         self.workspace.setup_custom_mapping(Page, {
