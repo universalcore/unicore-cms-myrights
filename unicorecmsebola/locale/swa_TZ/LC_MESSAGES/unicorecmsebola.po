@@ -1,53 +1,42 @@
 #
-# Language swh translations for PACKAGE package
+# SOME DESCRIPTIVE TITLE
 # This file is distributed under the same license as the PACKAGE package.
-# TonyM <tonym@localhost>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-11-19 17:46+0200\n"
-"PO-Revision-Date: 2014-09-29 22:45+0200\n"
-"Last-Translator: TonyM <tonym@localhost>\n"
-"Language-Team: Language swh\n"
-"Language: swa_TZ\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-23 16:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: swh_TZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. Default: Latest
-#: unicorecmsebola/templates/home.pt:11
-#, fuzzy
-msgid "Latest"
-msgstr "Latest in swa_TZ"
+"X-Generator: Translate Toolkit 1.11.0\n"
 
 #. Default: Home
 #: unicorecmsebola/templates/base.pt:45 unicorecmsebola/templates/base.pt:74
 msgid "Home"
-msgstr "Home in swa_TZ"
+msgstr ""
 
 #. Default: About
 #: unicorecmsebola/templates/base.pt:48 unicorecmsebola/templates/base.pt:77
-#, fuzzy
 msgid "About"
-msgstr "About in swa_TZ"
+msgstr ""
 
 #. Default: Credits
 #: unicorecmsebola/templates/base.pt:51 unicorecmsebola/templates/base.pt:80
-#, fuzzy
 msgid "Credits"
-msgstr "Credits in swa_TZ"
+msgstr ""
 
 #. Default: Contact
 #: unicorecmsebola/templates/base.pt:54 unicorecmsebola/templates/base.pt:83
-#, fuzzy
 msgid "Contact"
-msgstr "Contact in swa_TZ"
+msgstr ""
 
-#~ msgid "More"
-#~ msgstr "More in swa_TZ"
-
-#~ msgid "more"
-#~ msgstr "More in swa_TZ"
-
-#~ msgid "home"
-#~ msgstr "Home in swa_TZ"
+#. Default: Latest
+#: unicorecmsebola/templates/home.pt:29
+msgid "Latest"
+msgstr ""
