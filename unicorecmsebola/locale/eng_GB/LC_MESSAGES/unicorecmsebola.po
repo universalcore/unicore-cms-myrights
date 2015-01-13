@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-12-23 16:42+0200\n"
+"POT-Creation-Date: 2015-01-13 09:21+0200\n"
 "PO-Revision-Date: 2014-09-29 22:45+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language eng\n"
@@ -13,6 +13,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. Default: Latest
+#: unicorecmsebola/templates/home.pt:29
+msgid "Latest"
+msgstr ""
 
 #. Default: Home
 #: unicorecmsebola/templates/base.pt:45 unicorecmsebola/templates/base.pt:74
@@ -32,9 +37,4 @@ msgstr ""
 #. Default: Contact
 #: unicorecmsebola/templates/base.pt:54 unicorecmsebola/templates/base.pt:83
 msgid "Contact"
-msgstr ""
-
-#. Default: Latest
-#: unicorecmsebola/templates/home.pt:29
-msgid "Latest"
 msgstr ""

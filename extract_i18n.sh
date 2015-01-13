@@ -4,7 +4,7 @@ mkdir -p unicorecmsebola/locale
 
 pot-create -o unicorecmsebola/locale/unicorecmsebola.pot unicorecmsebola/
 
-declare -a arr=("eng_GB" "swa_TZ")
+declare -a arr=("eng_GB" "swa_TZ" "fre_FR")
 
 for lang in "${arr[@]}"
 do
