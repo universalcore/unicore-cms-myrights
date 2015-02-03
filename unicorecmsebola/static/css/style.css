@@ -11,6 +11,23 @@
 	.align-right { float: right; }
 	.text-center { text-align: center; }
 
+/* LANG */
+
+	.lang {
+		padding: 10px;
+		text-align: center;
+		background-color: #f6f4e3;
+		color: #ccb;
+	}
+
+	.lang a {
+		color: #91a893;
+	}
+
+	.lang .active {
+		color: #bcbcbc;
+	}
+
 
 /*  HEADER  */
 
