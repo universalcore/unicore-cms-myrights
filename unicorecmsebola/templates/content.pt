@@ -3,7 +3,7 @@
 
         <div class="page section_news object-detail ${primary_category.slug}-detail">
             <div class="h1">
-                <a href="/content/list/${primary_category.uuid}/">${primary_category.title}</a>
+                <a>${primary_category.title}</a>
                 <div class="clear"></div>
             </div>
             <div class="object-header">
