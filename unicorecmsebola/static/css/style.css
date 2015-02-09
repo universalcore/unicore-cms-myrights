@@ -28,6 +28,11 @@
 		color: #bcbcbc;
 	}
 
+	.lang-change {
+        position: relative;
+        top: -3px;
+        font-weight: bold;
+    }
 
 /*  HEADER  */
 
