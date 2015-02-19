@@ -5,7 +5,7 @@
 	<div class="search-box">
 		<form action='/search/' method='GET' class='form-search'>
 		    <input id="q" name='q' type="text" hint='enter search here..' i18n:attributes="hint">
-		    <input type="submit" value='Search' i18n:attributes="value"/>
+		    <input class="btn-search" type="submit" value='Search' i18n:attributes="value"/>
 		</form>
 	</div>
 </div>

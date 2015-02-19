@@ -76,6 +76,10 @@
 	#menu { background: #d15c4d; color: #f8f7e7; text-align: center; }
 		#menu a { padding: 8px 10px; display: block; border-bottom: 1px solid #fff; text-align: center; color: #f8f7e7; }
 
+/* BASE */
+	.form-search input {border: 0;}
+	.form-search #q {padding: 5px;}
+	.form-search {padding:10px 10px; background-color: #d15c4d; color: #fff; margin:0;}
 
 /*  FOOTER  */
 
