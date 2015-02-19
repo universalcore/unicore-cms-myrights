@@ -79,7 +79,7 @@
 /* BASE */
 	.form-search input {border: 0;}
 	.form-search #q {padding: 5px;}
-	.form-search {padding:10px 10px; background-color: #d15c4d; color: #fff; margin:0;}
+	.form-search {padding:10px 10px; background-color: #d15c4d; margin:0; border-bottom: solid 1px #fff}
 
 /*  FOOTER  */
 
