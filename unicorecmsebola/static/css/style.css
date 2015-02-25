@@ -36,8 +36,8 @@
 
 /*  HEADER  */
 
-	#header { padding: 10px; background: #d15c4d; text-align: center; border-top: 6px solid #aac2ac; }
-		#header img { width: 220px; display: block; margin: 0 auto }
+	#logo-container { padding: 10px; background: #d15c4d; text-align: center; border-top: 6px solid #aac2ac; }
+		#logo-container img { width: 220px; display: block; margin: 0 auto }
 
 
 /*  NAV  */
