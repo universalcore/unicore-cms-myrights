@@ -50,7 +50,6 @@
         </div>
 
     </div>
-    <div metal:define-slot="search" metal:use-macro="view.search_box_template"></div>
     <div id="footer" tal:define="site_footer view.get_page(None, 'site-footer')">
         <span tal:condition="site_footer">${site_footer.content}</span>
     </div>
