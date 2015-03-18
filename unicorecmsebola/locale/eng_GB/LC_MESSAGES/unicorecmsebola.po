@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2015-01-13 09:21+0200\n"
+"POT-Creation-Date: 2015-03-18 12:10+0200\n"
 "PO-Revision-Date: 2014-09-29 22:45+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language eng\n"
@@ -19,22 +19,72 @@ msgstr ""
 msgid "Latest"
 msgstr ""
 
+#. Default: 1 search result for:
+#: unicorecmsebola/templates/search_results.pt:9
+msgid "1 search result for:"
+msgstr ""
+
+#. Default: search results for:
+#: unicorecmsebola/templates/search_results.pt:14
+msgid "search results for:"
+msgstr ""
+
+#. Default: No results found for
+#: unicorecmsebola/templates/search_results.pt:35
+msgid "No results found for"
+msgstr ""
+
+#. Default: No results found!
+#: unicorecmsebola/templates/search_results.pt:40
+msgid "No results found!"
+msgstr ""
+
+#. Default: We can't find that page, sorry.
+#: unicorecmsebola/templates/404.pt:7
+msgid "We can't find that page, sorry."
+msgstr ""
+
+#. Default: Home Page
+#. Used in sentence: "Go to the <dynamic element>"
+#: unicorecmsebola/templates/404.pt:15
+msgid "Home Page"
+msgstr ""
+
+#. Default: Go to the <dynamic element>
+#: unicorecmsebola/templates/404.pt:13
+msgid "Go to the"
+msgstr ""
+
+#: unicorecmsebola/templates/search_box.pt:9
+msgid "Search"
+msgstr ""
+
+#. Default: Previous
+#: unicorecmsebola/templates/paginator.pt:9
+msgid "Previous"
+msgstr ""
+
+#. Default: Next
+#: unicorecmsebola/templates/paginator.pt:34
+msgid "Next"
+msgstr ""
+
 #. Default: Home
-#: unicorecmsebola/templates/base.pt:45 unicorecmsebola/templates/base.pt:74
+#: unicorecmsebola/templates/base.pt:43 unicorecmsebola/templates/base.pt:72
 msgid "Home"
 msgstr ""
 
 #. Default: About
-#: unicorecmsebola/templates/base.pt:48 unicorecmsebola/templates/base.pt:77
+#: unicorecmsebola/templates/base.pt:46 unicorecmsebola/templates/base.pt:75
 msgid "About"
 msgstr ""
 
 #. Default: Credits
-#: unicorecmsebola/templates/base.pt:51 unicorecmsebola/templates/base.pt:80
+#: unicorecmsebola/templates/base.pt:49 unicorecmsebola/templates/base.pt:78
 msgid "Credits"
 msgstr ""
 
 #. Default: Contact
-#: unicorecmsebola/templates/base.pt:54 unicorecmsebola/templates/base.pt:83
+#: unicorecmsebola/templates/base.pt:52 unicorecmsebola/templates/base.pt:81
 msgid "Contact"
 msgstr ""
