@@ -124,6 +124,7 @@ class TestViews(UnicoreTestCase):
             linked_pages=None,
             count=1, content='', description='',
             primary_category=None,
+            featured=True,
             created_at='2015-01-01T00:00:00')
 
         # checks that relevant views don't generate exceptions
