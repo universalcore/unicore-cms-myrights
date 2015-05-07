@@ -103,18 +103,6 @@ class TestViews(UnicoreTestCase):
         self.assertTrue('<a href="/">Nyumbani</a>' in resp.body)
 
     def test_footer_page(self):
-        self.workspace.setup_custom_mapping(Page, {
-            'properties': {
-                'slug': {
-                    'type': 'string',
-                    'index': 'not_analyzed',
-                },
-                'language': {
-                    'type': 'string',
-                }
-            }
-        })
-
         self.create_categories(self.workspace, count=1)
 
         intro_page = Page({
