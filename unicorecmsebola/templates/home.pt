@@ -1,0 +1,57 @@
+<div metal:use-macro="view.global_template"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="unicorecmsebola">
+    <div metal:fill-slot="content">
+        <div tal:define="localisation view.get_localisation()" tal:omit-tag="">
+            <div id="banner">
+                <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
+                    <img alt="Ebola Information" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
+                </condition>
+                <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
+                    <img src="/static/img/header.jpg"/>
+                </condition>
+            </div>
+        </div>
+
+        <div class="object-category-list modelbase-category-list" tal:condition="view.get_featured_pages()">
+            <div class="h1">&nbsp;<span i18n:translate="Latest">Latest</span><div class="clear"></div></div>
+            <div class="items">
+            <div class="box">
+                <div class="item" tal:repeat="page view.get_featured_pages()">
+                    <div class="text">
+                        <a href="/content/detail/${page.uuid}/">${page.title}</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="object-category-list modelbase-category-list" tal:repeat="cat view.get_categories()">
+            <div class="h1">
+                <a >
+                  ${cat.title}
+                </a>
+                <div class="clear"></div>
+            </div>
+
+            <div class="items" tal:condition="view.get_featured_category_pages(cat.uuid)">
+            <div class="box">
+                <div class="item" tal:repeat="page view.get_featured_category_pages(cat.uuid)[:20]">
+                    <div class="text">
+                        <a href="/content/detail/${page.uuid}/">${page.title}</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div tal:define="homepage_intro view.get_page(None, 'homepage-intro')">
+            <div class="detail" tal:condition="homepage_intro">
+                <p><strong>${homepage_intro.title}</strong></p>
+                <p>${homepage_intro.description}</p>
+                <p><a href="/homepage-intro/">Read more »</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
