@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -a unicore-cms-ebola ./build/
+cp -a unicore-cms-myrights ./build/

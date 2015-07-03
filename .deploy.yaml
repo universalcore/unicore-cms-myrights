@@ -1,4 +1,4 @@
-name: unicore-cms-ebola
+name: unicore-cms-myrights
 user: ubuntu
 buildscript: sideloader/deploy.sh
 postinstall: sideloader/postinstall.sh

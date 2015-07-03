@@ -1,4 +1,4 @@
 include README.rst
 include requirements.txt
-recursive-include unicorecmsebola *
+recursive-include unicorecmsmyrights *
 recursive-include mappings *

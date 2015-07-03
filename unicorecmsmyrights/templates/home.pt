@@ -1,11 +1,11 @@
 <div metal:use-macro="view.global_template"
      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-     i18n:domain="unicorecmsebola">
+     i18n:domain="unicorecmsmyrights">
     <div metal:fill-slot="content">
         <div tal:define="localisation view.get_localisation()" tal:omit-tag="">
             <div id="banner">
                 <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
-                    <img alt="Ebola Information" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
+                    <img alt="MyRights" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
                 </condition>
                 <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
                     <img src="/static/img/header.jpg"/>

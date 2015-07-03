@@ -1,6 +1,6 @@
 #! /bin/bash
 set -e
 
-find ./unicorecmsebola -name '*.py' | xargs pep8
-find ./unicorecmsebola -name '*.py' | xargs pyflakes
-py.test --verbose --cov ./unicorecmsebola unicorecmsebola
+find ./unicorecmsmyrights -name '*.py' | xargs pep8
+find ./unicorecmsmyrights -name '*.py' | xargs pyflakes
+py.test --verbose --cov ./unicorecmsmyrights unicorecmsmyrights

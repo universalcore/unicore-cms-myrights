@@ -2,7 +2,7 @@ from datetime import datetime
 from pyramid import testing
 
 from cms.tests.base import UnicoreTestCase
-from unicorecmsebola import main
+from unicorecmsmyrights import main
 from unicore.content.models import Page, Localisation, Category
 
 
@@ -85,7 +85,7 @@ class TestViews(UnicoreTestCase):
             '<p>this is the description text</p>' in
             resp.body)
         self.assertTrue(
-            '<img alt="Ebola Information" '
+            '<img alt="MyRights" '
             'src="http://some.site.com/VNlJN07VKnfaB6k1imziAts4n0o='
             '/320x0/some-uuid"/>' in
             resp.body)
