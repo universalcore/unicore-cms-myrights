@@ -43,8 +43,6 @@
         <div metal:define-slot="menu">
           <div id="menu">
               <a href="/" i18n:translate="Home">Home</a>
-              <a href="/about/" i18n:translate="About">About</a>
-              <a href="/credits/" i18n:translate="Credits">Credits</a>
               <a href="/contact/" i18n:translate="Contact">Contact</a>
           </div>
         </div>
