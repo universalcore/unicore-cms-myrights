@@ -7,9 +7,6 @@ source ve/bin/activate
 git pull
 pip install -e .
 pip install --upgrade elastic-git
-echo 'Fixing pinned requirement issues'
-pip install requests==2.5.3
-pip install pytz==2015.2
 echo 'Done installing requirements.'
 echo 'Cloning repo..'
 rm -rf repo/
