@@ -1,4 +1,4 @@
-# 
+#
 # SOME DESCRIPTIVE TITLE
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-03 14:18+0200\n"
-"PO-Revision-Date: 2015-07-07 06:48+0000\n"
+"POT-Creation-Date: 2015-07-08 10:52+0200\n"
+"PO-Revision-Date: 2015-07-08 08:51+0000\n"
 "Last-Translator: Simon <simon@praekeltfoundation.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hin_IN\n"
@@ -16,71 +16,70 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "Generated-By: Lingua 3.10\n"
-"X-POOTLE-MTIME: 1436251684.435913\n"
+"X-POOTLE-MTIME: 1436345501.499311\n"
 
 #. Default: We can't find that page, sorry.
-#: ./unicorecmsmyrights/templates/404.pt:7
+#: unicorecmsmyrights/templates/404.pt:7
 msgid "We can't find that page, sorry."
-msgstr ""
+msgstr "हमें खेद है , यह पेज नहीं मिल रहा है"
 
 #. Default: Home Page
-#. Used in sentence: "Go to the <dynamic element>"
-#: ./unicorecmsmyrights/templates/404.pt:11
+#: unicorecmsmyrights/templates/404.pt:15
 msgid "Home Page"
 msgstr "होम पेज"
 
 #. Default: Go to the <dynamic element>
-#: ./unicorecmsmyrights/templates/404.pt:10
+#: unicorecmsmyrights/templates/404.pt:13
 msgid "Go to the"
 msgstr "यहाँ जाएँ"
 
 #. Default: Home
-#: ./unicorecmsmyrights/templates/base.pt:31
-#: ./unicorecmsmyrights/templates/base.pt:44
+#: unicorecmsmyrights/templates/base.pt:46
+#: unicorecmsmyrights/templates/base.pt:69
 msgid "Home"
 msgstr " होम"
 
 #. Default: Contact
-#: ./unicorecmsmyrights/templates/base.pt:32
-#: ./unicorecmsmyrights/templates/base.pt:45
+#: unicorecmsmyrights/templates/base.pt:49
+#: unicorecmsmyrights/templates/base.pt:72
 msgid "Contact"
 msgstr "हमसे संपर्क करें"
 
 #. Default: Latest
-#: ./unicorecmsmyrights/templates/home.pt:17
+#: unicorecmsmyrights/templates/home.pt:29
 msgid "Latest"
 msgstr ""
 
 #. Default: Previous
-#: ./unicorecmsmyrights/templates/paginator.pt:9
+#: unicorecmsmyrights/templates/paginator.pt:9
 msgid "Previous"
 msgstr ""
 
 #. Default: Next
-#: ./unicorecmsmyrights/templates/paginator.pt:17
+#: unicorecmsmyrights/templates/paginator.pt:34
 msgid "Next"
 msgstr ""
 
-#: ./unicorecmsmyrights/templates/search_box.pt:8
+#: unicorecmsmyrights/templates/search_box.pt:9
 msgid "Search"
 msgstr ""
 
 #. Default: 1 search result for:
-#: ./unicorecmsmyrights/templates/search_results.pt:7
+#: unicorecmsmyrights/templates/search_results.pt:9
 msgid "1 search result for:"
 msgstr ""
 
 #. Default: search results for:
-#: ./unicorecmsmyrights/templates/search_results.pt:8
+#: unicorecmsmyrights/templates/search_results.pt:14
 msgid "search results for:"
 msgstr ""
 
 #. Default: No results found for
-#: ./unicorecmsmyrights/templates/search_results.pt:18
+#: unicorecmsmyrights/templates/search_results.pt:35
 msgid "No results found for"
 msgstr ""
 
 #. Default: No results found!
-#: ./unicorecmsmyrights/templates/search_results.pt:19
+#: unicorecmsmyrights/templates/search_results.pt:40
 msgid "No results found!"
 msgstr ""
