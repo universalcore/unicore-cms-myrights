@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from datetime import datetime
 from pyramid import testing
 
@@ -96,11 +98,11 @@ class TestViews(UnicoreTestCase):
         resp = self.app.get('/?_LOCALE_=eng_UK', status=200)
         self.assertTrue('<a href="/">Home</a>' in resp.body)
 
-        resp = self.app.get('/?_LOCALE_=swa_TZ', status=200)
-        self.assertTrue('<a href="/">Nyumbani</a>' in resp.body)
+        resp = self.app.get('/?_LOCALE_=hin_IN', status=200)
+        self.assertTrue('<a href="/"> होम</a>' in resp.body)
 
-        resp = self.app.get('/?_LOCALE_=swh_TZ', status=200)
-        self.assertTrue('<a href="/">Nyumbani</a>' in resp.body)
+        resp = self.app.get('/?_LOCALE_=hin_IN', status=200)
+        self.assertTrue('<a href="/"> होम</a>' in resp.body)
 
     def test_footer_page(self):
         self.create_categories(self.workspace, count=1)
